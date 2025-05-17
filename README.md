@@ -1,6 +1,6 @@
 # 💻 API com FastAPI e Swagger
 
-Este projeto foi desenvolvido como parte da disciplina **Programação de Aplicativos Mobile**, ministrada pelo professor **Ricardo Melo Casseb do Carmo**, no curso de Ciência da Computação do CESUPA.
+Este projeto foi desenvolvido como parte da disciplina **Programação de Aplicativos Mobile**, ministrada pelo professor **Ricardo Casseb**, no curso de Ciência da Computação do Centro Universitário do Estado do Pará - CESUPA.
 
 ---
 
@@ -26,15 +26,11 @@ Toda a documentação é gerada automaticamente via Swagger UI e pode ser acessa
 
 Contribuições são bem-vindas!
 
-📬 Entre em contato:  
+📬 Entre em contato:
 - Email: [brunamelido@gmail.com](mailto:brunamelido@gmail.com)
-
+- Linkedin: [Bruna Melido](https://www.linkedin.com/in/brunamelido/)
 ---
 
 ## 👩‍💻 Autoria
 
 **Bruna Melido**  
-Curso: Ciência da Computação – 7º Semestre – CESUPA  
-Disciplina: Programação de Aplicativos Mobile  
-Professor: Ricardo Melo Casseb do Carmo  
-Entrega: Atividade 1 – Documentando sua API com Swagger (OpenAPI)
