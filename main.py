@@ -7,6 +7,15 @@ app = FastAPI(
     version="1.0.0"
 )
 
+@app.get("/")
+def home():
+    """
+    Rota raiz
+
+    - Exibe uma mensagem de boas-vindas e sugere acessar a documentação.
+    """
+    return {"mensagem": "API da Bruna no ar! Visite /docs para ver a documentação."}
+
 @app.get("/hello")
 def read_root(name: Optional[str] = Query(None, description="Nome da pessoa para cumprimentar")):
     """
