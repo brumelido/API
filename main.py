@@ -14,15 +14,15 @@ def home():
 
     - Exibe uma mensagem de boas-vindas e sugere acessar a documentação.
     """
-    return {"mensagem": "API da Bruna no ar! Visite /docs para ver a documentação."}
+    return {"mensagem": "API no ar! Visite /docs para ver a documentação."}
 
 @app.get("/hello")
 def read_root(name: Optional[str] = Query(None, description="Nome da pessoa para cumprimentar")):
     """
-    Endpoint de saudação
+    Endpoint
 
-    - **name**: Nome opcional para personalizar a mensagem
-    - Retorna uma mensagem de saudação
+    - **name**: Nome para personalizar a mensagem
+    - Retorna uma mensagem
     """
     if name:
         return {"message": f"Olá, {name}!"}
